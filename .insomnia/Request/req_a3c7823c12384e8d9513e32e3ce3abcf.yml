@@ -1,0 +1,31 @@
+_id: req_a3c7823c12384e8d9513e32e3ce3abcf
+type: Request
+parentId: fld_9373eb0493444eed8759a68a06c668ed
+modified: 1648516914623
+created: 1648405325771
+url: "{{ _.localhost }}/function"
+name: create function
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"NAME":"DBA",
+    	"CBO":"123456789",
+    	"DESCRIPTION":"Administrador de banco de dados"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_404dc9e231a74fcc9dc3323148eab33a
+authentication: {}
+metaSortKey: -1648405325771
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

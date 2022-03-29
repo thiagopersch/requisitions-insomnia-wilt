@@ -1,0 +1,37 @@
+_id: req_66fe7a4fb1734c9ba1013db7ccfc1540
+type: Request
+parentId: fld_54e44f47dac14486a13d17790bcd8461
+modified: 1648517756984
+created: 1648404842523
+url: "{{ _.localhost }}/people"
+name: create people
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "GUSER_ID": "659837a4-0024-4b56-86e7-0bd9d6eec745",
+      "IMAGE": "sem-foto.png",
+      "NAME": "Tiago Persch",
+      "CPF": "03314881240",
+      "SEX": "M",
+      "BIRTHDATE": "2000-02-09",
+      "EMAIL": "thiagopersch@gmail.com",
+      "NATIONALITY": "Brasileira",
+      "PHONE_ONE": "69999886852"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_23febb197597496b8fbfc744b5c40fd6
+authentication: {}
+metaSortKey: -1648404842523
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

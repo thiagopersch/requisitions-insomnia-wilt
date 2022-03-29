@@ -1,0 +1,30 @@
+_id: req_2ad05f8cfe8b4bf28ef67672321526f4
+type: Request
+parentId: fld_2e842b7797374d9e8271a562c42b9b8f
+modified: 1648517638796
+created: 1648517582785
+url: "{{ _.localhost }}/provider"
+name: create provider
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"GPEOPLE_ID":"4ff513b0-a454-45e1-9df6-ddad590762a9",
+    	"SERVICE_DESCRIPTION":"TESTE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3a49f32121b14993b50d9cd73bee449b
+authentication: {}
+metaSortKey: -1648517582785
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

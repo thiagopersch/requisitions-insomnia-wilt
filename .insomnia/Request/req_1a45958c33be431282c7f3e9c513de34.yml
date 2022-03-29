@@ -1,0 +1,33 @@
+_id: req_1a45958c33be431282c7f3e9c513de34
+type: Request
+parentId: fld_cebb563040c14f1d9ef5c7d64b2ac714
+modified: 1648516932330
+created: 1648405439989
+url: "{{ _.localhost }}/func"
+name: create func
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "GPEOPLE_ID": "4ff513b0-a454-45e1-9df6-ddad590762a9",
+      "FFUNCTION_ID": "8f03369a-c8e7-4d31-9d30-81e7d0d66fc8",
+      "FSECTOR_ID": "6cfe3fa4-565a-4022-a827-36316925564d",
+      "ADMISSION_DATE": "2021-09-30",
+      "SALARY": "15000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d9f042c3c6704907ab6c9bfe5c8e22d9
+authentication: {}
+metaSortKey: -1648405439989
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

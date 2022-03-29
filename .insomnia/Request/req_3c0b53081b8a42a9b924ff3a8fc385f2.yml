@@ -1,0 +1,30 @@
+_id: req_3c0b53081b8a42a9b924ff3a8fc385f2
+type: Request
+parentId: fld_2ef13cc0a15f47b79dc2c60c8fc923fa
+modified: 1648516889263
+created: 1648404762304
+url: "{{ _.localhost }}/users"
+name: create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"USER": "TIAGOPERSCH",
+    	"NAME": "TIAGO PERSCH"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_66be2bb14024420fa93caabadf165ab0
+authentication: {}
+metaSortKey: -1648373750363
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

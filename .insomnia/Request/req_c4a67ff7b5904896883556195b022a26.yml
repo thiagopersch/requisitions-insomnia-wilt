@@ -1,0 +1,29 @@
+_id: req_c4a67ff7b5904896883556195b022a26
+type: Request
+parentId: fld_6aedde0fb35f4c278a502823a155ed4a
+modified: 1648518008052
+created: 1648517733290
+url: "{{ _.localhost }}/client"
+name: create client
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"GPEOPLE_ID":"4ff513b0-a454-45e1-9df6-ddad590762a9"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c09096ae1f564daa918999a76c46a9f9
+authentication: {}
+metaSortKey: -1648517733290
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_a2a0b5e2b216486ebda07bc3bc6f02b6
+type: Request
+parentId: fld_fff53293f5864eafb9ac4c1d287e515d
+modified: 1648516925610
+created: 1648342755801
+url: "{{ _.localhost }}/sector"
+name: create sector
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"NAME": "T.I.",
+    	"DESCRIPTION":"Setor de Tecnologia"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_24059656af5f4e848cc0250a456fddfb
+authentication: {}
+metaSortKey: -1648342755802
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
