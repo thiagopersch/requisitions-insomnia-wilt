@@ -1,7 +1,7 @@
 _id: req_1a45958c33be431282c7f3e9c513de34
 type: Request
 parentId: fld_cebb563040c14f1d9ef5c7d64b2ac714
-modified: 1648516932330
+modified: 1648777277159
 created: 1648405439989
 url: "{{ _.localhost }}/func"
 name: create func
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-      "GPEOPLE_ID": "4ff513b0-a454-45e1-9df6-ddad590762a9",
-      "FFUNCTION_ID": "8f03369a-c8e7-4d31-9d30-81e7d0d66fc8",
-      "FSECTOR_ID": "6cfe3fa4-565a-4022-a827-36316925564d",
+      "GPEOPLE_ID": "700f05e9-917d-4a59-86b1-de985b41db4b",
+      "FFUNCTION_ID": "84d4e4a9-7f53-4861-a92e-67d427dbd524",
+      "FSECTOR_ID": "e61ae49c-6a33-463d-a691-001dc09fad4b",
       "ADMISSION_DATE": "2021-09-30",
-      "SALARY": "15000"
+      "SALARY": "150,00"
     }
 parameters: []
 headers:

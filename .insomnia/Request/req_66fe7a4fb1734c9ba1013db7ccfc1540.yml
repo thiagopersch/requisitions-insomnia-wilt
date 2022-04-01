@@ -1,7 +1,7 @@
 _id: req_66fe7a4fb1734c9ba1013db7ccfc1540
 type: Request
 parentId: fld_54e44f47dac14486a13d17790bcd8461
-modified: 1648517756984
+modified: 1648777122881
 created: 1648404842523
 url: "{{ _.localhost }}/people"
 name: create people
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-      "GUSER_ID": "659837a4-0024-4b56-86e7-0bd9d6eec745",
+      "GUSER_ID": "8626fec8-d67a-46a3-90cd-fcb171ea2bc3",
       "IMAGE": "sem-foto.png",
       "NAME": "Tiago Persch",
       "CPF": "03314881240",
